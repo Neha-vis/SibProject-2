@@ -26,13 +26,13 @@ const Servicess = () => {
   ];
 
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="py-16 px-4 bg-light">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-12">
-        OC PRO PROPERTY MANAGEMENT SERVICE IS THE RIGHT CHOICE IF:
+        <h2 className="text-4xl font-bold text-gray-800 mb-12 max-w-6xl">
+        OC PRO <span className="text-orange-400">PROPERTY MANAGEMENT SERVICE </span>IS THE RIGHT CHOICE IF:
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-5">
           {benefits.map((benefit, index) => (
             <div
               key={index}
@@ -41,7 +41,7 @@ const Servicess = () => {
               <div className="flex items-center justify-center mb-4">
               <div className="bg-orange-500 text-white rounded-full p-3">
 
-                  <CheckCircle className="h-6 w-6" />
+                  <CheckCircle className="h-4 w-4" />
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">

@@ -1,29 +1,29 @@
 import React from 'react';
-import Pic1 from "../static/img/pic1.png";
-import Pic2 from "../static/img/pic2.png";
-import Pic3 from "../static/img/pic3.png";
+import Pic4 from "../static/img/pic4.png";
+import Pic5 from "../static/img/pic5.png";
+import Pic6 from "../static/img/pic6.png";
 
 const Whychoose = () => {
   const features = [
     {
-      image: Pic1,
+      image: Pic4,
       title: '15 YEARS EXPERIENCE',
       description: 'We know how to maximize rental income, find great tenants, and keep your property running smoothly—stress-free and profitable.',
     },
     {
-      image: Pic2,
+      image: Pic5,
       title: 'ORANGE COUNTY PROPERTY EXPERTS',
       description: 'We know the OC rental market inside and out—helping you get top dollar for your property.Specializing in property management in central and north Orange County.',
     },
     {
-      image: Pic3,
+      image: Pic6,
       title: '24/7 SUPPORT & TRUSTED VENDORS',
       description: 'Need repairs? Our network of top-rated vendors gets the job done fast and at the best rates, keeping your property in top shape without the hassle.',
     },
   ];
 
   return (
-    <section className="py-16 px-6 bg-white">
+    <section className="py-16 px-6 bg-light">
       <div className="max-w-6xl mx-auto text-center">
        
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
