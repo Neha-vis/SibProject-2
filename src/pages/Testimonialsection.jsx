@@ -40,20 +40,20 @@ const TestimonialSection = () => {
 
       <div className="relative z-10 max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">
             STRESS-FREE PROPERTY MANAGEMENT:
           </h2>
-          <h3 className="text-xl md:text-2xl font-semibold text-white">
+          <h3 className="text-lg md:text-2xl font-semibold text-white">
             Just Ask Our Clients
           </h3>
           <div className="w-20 h-1 bg-green-500 mx-auto mt-4"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white bg-opacity-10 backdrop-blur-md rounded-lg shadow-lg p-6 hover:-translate-y-1 transition-transform"
+              className="bg-white bg-opacity-10 backdrop-blur-md rounded-lg shadow-lg p-4 transition-transform"
             >
               <div className="flex mb-4">
                 {Array.from({ length: testimonial.rating }).map((_, i) => (
@@ -61,7 +61,7 @@ const TestimonialSection = () => {
                 ))}
               </div>
 
-              <p className="text-white text-lg mb-4 font-light">"{testimonial.content}"</p>
+              <p className="text-white text-base mb-4 font-light">"{testimonial.content}"</p>
               <footer>
                 <p className="text-green-400 font-semibold">{testimonial.author}</p>
               </footer>
@@ -74,3 +74,4 @@ const TestimonialSection = () => {
 };
 
 export default TestimonialSection;
+
